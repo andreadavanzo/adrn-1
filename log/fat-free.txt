@@ -1,0 +1,17 @@
+naranza@naranza22:/git/php-framework-study$ composer create-project bcosca/fatfree fat-free
+Creating a "bcosca/fatfree" project at "./fat-free"
+Installing bcosca/fatfree (3.9.0)
+  - Downloading bcosca/fatfree (3.9.0)
+  - Installing bcosca/fatfree (3.9.0): Extracting archive
+Created project in /naranza/php-framework-study/fat-free
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking bcosca/fatfree-core (3.9.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading bcosca/fatfree-core (3.9.0)
+  - Installing bcosca/fatfree-core (3.9.0): Extracting archive
+Generating autoload files
+

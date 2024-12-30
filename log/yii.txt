@@ -1,0 +1,271 @@
+naranza@naranza22:/git/php-framework-study$ composer create-project --prefer-dist yiisoft/yii2-app-basic yii
+Creating a "yiisoft/yii2-app-basic" project at "./yii"
+Installing yiisoft/yii2-app-basic (2.0.51)
+  - Downloading yiisoft/yii2-app-basic (2.0.51)
+  - Installing yiisoft/yii2-app-basic (2.0.51): Extracting archive
+Created project in /naranza/php-framework-study/yii
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 83 installs, 0 updates, 0 removals
+  - Locking behat/gherkin (v4.11.0)
+  - Locking bower-asset/bootstrap (v5.3.3)
+  - Locking bower-asset/inputmask (5.0.8)
+  - Locking bower-asset/jquery (3.7.1)
+  - Locking bower-asset/punycode (v2.3.1)
+  - Locking bower-asset/yii2-pjax (2.0.8)
+  - Locking cebe/markdown (1.2.1)
+  - Locking codeception/codeception (5.1.2)
+  - Locking codeception/lib-asserts (2.1.0)
+  - Locking codeception/lib-innerbrowser (4.0.5)
+  - Locking codeception/lib-web (1.0.6)
+  - Locking codeception/module-asserts (3.0.0)
+  - Locking codeception/module-filesystem (3.0.1)
+  - Locking codeception/module-yii2 (1.1.12)
+  - Locking codeception/stub (4.1.3)
+  - Locking codeception/verify (3.2.0)
+  - Locking doctrine/lexer (3.0.1)
+  - Locking egulias/email-validator (4.0.3)
+  - Locking ezyang/htmlpurifier (v4.18.0)
+  - Locking fakerphp/faker (v1.24.1)
+  - Locking guzzlehttp/psr7 (2.7.0)
+  - Locking masterminds/html5 (2.9.0)
+  - Locking myclabs/deep-copy (1.12.1)
+  - Locking nikic/php-parser (v5.4.0)
+  - Locking paragonie/random_compat (v9.99.100)
+  - Locking phar-io/manifest (2.0.4)
+  - Locking phar-io/version (3.2.1)
+  - Locking phpspec/php-diff (v1.1.3)
+  - Locking phpunit/php-code-coverage (10.1.16)
+  - Locking phpunit/php-file-iterator (4.1.0)
+  - Locking phpunit/php-invoker (4.0.0)
+  - Locking phpunit/php-text-template (3.0.1)
+  - Locking phpunit/php-timer (6.0.0)
+  - Locking phpunit/phpunit (10.5.40)
+  - Locking psr/container (2.0.2)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/http-factory (1.1.0)
+  - Locking psr/http-message (2.0)
+  - Locking psr/log (3.0.2)
+  - Locking psy/psysh (v0.12.7)
+  - Locking ralouphie/getallheaders (3.0.3)
+  - Locking sebastian/cli-parser (2.0.1)
+  - Locking sebastian/code-unit (2.0.0)
+  - Locking sebastian/code-unit-reverse-lookup (3.0.0)
+  - Locking sebastian/comparator (5.0.3)
+  - Locking sebastian/complexity (3.2.0)
+  - Locking sebastian/diff (5.1.1)
+  - Locking sebastian/environment (6.1.0)
+  - Locking sebastian/exporter (5.1.2)
+  - Locking sebastian/global-state (6.0.2)
+  - Locking sebastian/lines-of-code (2.0.2)
+  - Locking sebastian/object-enumerator (5.0.0)
+  - Locking sebastian/object-reflector (3.0.0)
+  - Locking sebastian/recursion-context (5.0.0)
+  - Locking sebastian/type (4.0.0)
+  - Locking sebastian/version (4.0.1)
+  - Locking symfony/browser-kit (v6.4.13)
+  - Locking symfony/console (v6.4.15)
+  - Locking symfony/css-selector (v6.4.13)
+  - Locking symfony/deprecation-contracts (v3.5.1)
+  - Locking symfony/dom-crawler (v6.4.16)
+  - Locking symfony/event-dispatcher (v6.4.13)
+  - Locking symfony/event-dispatcher-contracts (v3.5.1)
+  - Locking symfony/finder (v6.4.13)
+  - Locking symfony/mailer (v6.4.13)
+  - Locking symfony/mime (v6.4.13)
+  - Locking symfony/polyfill-ctype (v1.31.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.31.0)
+  - Locking symfony/polyfill-intl-idn (v1.31.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.31.0)
+  - Locking symfony/polyfill-mbstring (v1.31.0)
+  - Locking symfony/service-contracts (v3.5.1)
+  - Locking symfony/string (v6.4.15)
+  - Locking symfony/var-dumper (v6.4.15)
+  - Locking symfony/yaml (v6.4.13)
+  - Locking theseer/tokenizer (1.2.3)
+  - Locking yiisoft/yii2 (2.0.51)
+  - Locking yiisoft/yii2-bootstrap5 (2.0.4)
+  - Locking yiisoft/yii2-composer (2.0.10)
+  - Locking yiisoft/yii2-debug (2.1.25)
+  - Locking yiisoft/yii2-faker (2.0.5)
+  - Locking yiisoft/yii2-gii (2.2.6)
+  - Locking yiisoft/yii2-symfonymailer (2.0.4)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 83 installs, 0 updates, 0 removals
+  - Downloading yiisoft/yii2-composer (2.0.10)
+  - Downloading behat/gherkin (v4.11.0)
+  - Downloading bower-asset/jquery (3.7.1)
+  - Downloading bower-asset/inputmask (5.0.8)
+  - Downloading bower-asset/punycode (v2.3.1)
+  - Downloading bower-asset/yii2-pjax (2.0.8)
+  - Downloading cebe/markdown (1.2.1)
+  - Downloading symfony/css-selector (v6.4.13)
+  - Downloading sebastian/version (4.0.1)
+  - Downloading sebastian/type (4.0.0)
+  - Downloading sebastian/recursion-context (5.0.0)
+  - Downloading sebastian/object-reflector (3.0.0)
+  - Downloading sebastian/object-enumerator (5.0.0)
+  - Downloading sebastian/global-state (6.0.2)
+  - Downloading symfony/polyfill-mbstring (v1.31.0)
+  - Downloading sebastian/exporter (5.1.2)
+  - Downloading sebastian/environment (6.1.0)
+  - Downloading sebastian/diff (5.1.1)
+  - Downloading sebastian/comparator (5.0.3)
+  - Downloading sebastian/code-unit (2.0.0)
+  - Downloading sebastian/cli-parser (2.0.1)
+  - Downloading phpunit/php-timer (6.0.0)
+  - Downloading phpunit/php-text-template (3.0.1)
+  - Downloading phpunit/php-invoker (4.0.0)
+  - Downloading phpunit/php-file-iterator (4.1.0)
+  - Downloading theseer/tokenizer (1.2.3)
+  - Downloading symfony/polyfill-ctype (v1.31.0)
+  - Downloading nikic/php-parser (v5.4.0)
+  - Downloading sebastian/lines-of-code (2.0.2)
+  - Downloading sebastian/complexity (3.2.0)
+  - Downloading sebastian/code-unit-reverse-lookup (3.0.0)
+  - Downloading phpunit/php-code-coverage (10.1.16)
+  - Downloading phar-io/version (3.2.1)
+  - Downloading phar-io/manifest (2.0.4)
+  - Downloading myclabs/deep-copy (1.12.1)
+  - Downloading phpunit/phpunit (10.5.40)
+  - Downloading ralouphie/getallheaders (3.0.3)
+  - Downloading psr/http-message (2.0)
+  - Downloading psr/http-factory (1.1.0)
+  - Downloading guzzlehttp/psr7 (2.7.0)
+  - Downloading codeception/lib-web (1.0.6)
+  - Downloading symfony/deprecation-contracts (v3.5.1)
+  - Downloading symfony/yaml (v6.4.13)
+  - Downloading symfony/var-dumper (v6.4.15)
+  - Downloading symfony/finder (v6.4.13)
+  - Downloading psr/event-dispatcher (1.0.0)
+  - Downloading symfony/event-dispatcher-contracts (v3.5.1)
+  - Downloading symfony/event-dispatcher (v6.4.13)
+  - Downloading symfony/polyfill-intl-normalizer (v1.31.0)
+  - Downloading symfony/polyfill-intl-grapheme (v1.31.0)
+  - Downloading symfony/string (v6.4.15)
+  - Downloading psr/container (2.0.2)
+  - Downloading symfony/service-contracts (v3.5.1)
+  - Downloading symfony/console (v6.4.15)
+  - Downloading psy/psysh (v0.12.7)
+  - Downloading codeception/stub (4.1.3)
+  - Downloading codeception/lib-asserts (2.1.0)
+  - Downloading codeception/codeception (5.1.2)
+  - Downloading codeception/module-asserts (3.0.0)
+  - Downloading codeception/module-filesystem (3.0.1)
+  - Downloading masterminds/html5 (2.9.0)
+  - Downloading symfony/dom-crawler (v6.4.16)
+  - Downloading symfony/browser-kit (v6.4.13)
+  - Downloading codeception/lib-innerbrowser (4.0.5)
+  - Downloading codeception/module-yii2 (1.1.12)
+  - Downloading codeception/verify (3.2.0)
+  - Downloading symfony/polyfill-intl-idn (v1.31.0)
+  - Downloading doctrine/lexer (3.0.1)
+  - Downloading egulias/email-validator (4.0.3)
+  - Downloading ezyang/htmlpurifier (v4.18.0)
+  - Downloading paragonie/random_compat (v9.99.100)
+  - Downloading psr/log (3.0.2)
+  - Downloading symfony/mime (v6.4.13)
+  - Downloading yiisoft/yii2 (2.0.51)
+  - Downloading bower-asset/bootstrap (v5.3.3)
+  - Downloading yiisoft/yii2-bootstrap5 (2.0.4)
+  - Downloading yiisoft/yii2-debug (2.1.25)
+  - Downloading fakerphp/faker (v1.24.1)
+  - Downloading yiisoft/yii2-faker (2.0.5)
+  - Downloading phpspec/php-diff (v1.1.3)
+  - Downloading yiisoft/yii2-gii (2.2.6)
+  - Downloading symfony/mailer (v6.4.13)
+  - Downloading yiisoft/yii2-symfonymailer (2.0.4)
+  - Installing yiisoft/yii2-composer (2.0.10): Extracting archive
+  - Installing behat/gherkin (v4.11.0): Extracting archive
+  - Installing bower-asset/jquery (3.7.1): Extracting archive
+  - Installing bower-asset/inputmask (5.0.8): Extracting archive
+  - Installing bower-asset/punycode (v2.3.1): Extracting archive
+  - Installing bower-asset/yii2-pjax (2.0.8): Extracting archive
+  - Installing cebe/markdown (1.2.1): Extracting archive
+  - Installing symfony/css-selector (v6.4.13): Extracting archive
+  - Installing sebastian/version (4.0.1): Extracting archive
+  - Installing sebastian/type (4.0.0): Extracting archive
+  - Installing sebastian/recursion-context (5.0.0): Extracting archive
+  - Installing sebastian/object-reflector (3.0.0): Extracting archive
+  - Installing sebastian/object-enumerator (5.0.0): Extracting archive
+  - Installing sebastian/global-state (6.0.2): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.31.0): Extracting archive
+  - Installing sebastian/exporter (5.1.2): Extracting archive
+  - Installing sebastian/environment (6.1.0): Extracting archive
+  - Installing sebastian/diff (5.1.1): Extracting archive
+  - Installing sebastian/comparator (5.0.3): Extracting archive
+  - Installing sebastian/code-unit (2.0.0): Extracting archive
+  - Installing sebastian/cli-parser (2.0.1): Extracting archive
+  - Installing phpunit/php-timer (6.0.0): Extracting archive
+  - Installing phpunit/php-text-template (3.0.1): Extracting archive
+  - Installing phpunit/php-invoker (4.0.0): Extracting archive
+  - Installing phpunit/php-file-iterator (4.1.0): Extracting archive
+  - Installing theseer/tokenizer (1.2.3): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.31.0): Extracting archive
+  - Installing nikic/php-parser (v5.4.0): Extracting archive
+  - Installing sebastian/lines-of-code (2.0.2): Extracting archive
+  - Installing sebastian/complexity (3.2.0): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (3.0.0): Extracting archive
+  - Installing phpunit/php-code-coverage (10.1.16): Extracting archive
+  - Installing phar-io/version (3.2.1): Extracting archive
+  - Installing phar-io/manifest (2.0.4): Extracting archive
+  - Installing myclabs/deep-copy (1.12.1): Extracting archive
+  - Installing phpunit/phpunit (10.5.40): Extracting archive
+  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+  - Installing psr/http-message (2.0): Extracting archive
+  - Installing psr/http-factory (1.1.0): Extracting archive
+  - Installing guzzlehttp/psr7 (2.7.0): Extracting archive
+  - Installing codeception/lib-web (1.0.6): Extracting archive
+  - Installing symfony/deprecation-contracts (v3.5.1): Extracting archive
+  - Installing symfony/yaml (v6.4.13): Extracting archive
+  - Installing symfony/var-dumper (v6.4.15): Extracting archive
+  - Installing symfony/finder (v6.4.13): Extracting archive
+  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v3.5.1): Extracting archive
+  - Installing symfony/event-dispatcher (v6.4.13): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.31.0): Extracting archive
+  - Installing symfony/polyfill-intl-grapheme (v1.31.0): Extracting archive
+  - Installing symfony/string (v6.4.15): Extracting archive
+  - Installing psr/container (2.0.2): Extracting archive
+  - Installing symfony/service-contracts (v3.5.1): Extracting archive
+  - Installing symfony/console (v6.4.15): Extracting archive
+  - Installing psy/psysh (v0.12.7): Extracting archive
+  - Installing codeception/stub (4.1.3): Extracting archive
+  - Installing codeception/lib-asserts (2.1.0): Extracting archive
+  - Installing codeception/codeception (5.1.2): Extracting archive
+  - Installing codeception/module-asserts (3.0.0): Extracting archive
+  - Installing codeception/module-filesystem (3.0.1): Extracting archive
+  - Installing masterminds/html5 (2.9.0): Extracting archive
+  - Installing symfony/dom-crawler (v6.4.16): Extracting archive
+  - Installing symfony/browser-kit (v6.4.13): Extracting archive
+  - Installing codeception/lib-innerbrowser (4.0.5): Extracting archive
+  - Installing codeception/module-yii2 (1.1.12): Extracting archive
+  - Installing codeception/verify (3.2.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.31.0): Extracting archive
+  - Installing doctrine/lexer (3.0.1): Extracting archive
+  - Installing egulias/email-validator (4.0.3): Extracting archive
+  - Installing ezyang/htmlpurifier (v4.18.0): Extracting archive
+  - Installing paragonie/random_compat (v9.99.100): Extracting archive
+  - Installing psr/log (3.0.2): Extracting archive
+  - Installing symfony/mime (v6.4.13): Extracting archive
+  - Installing yiisoft/yii2 (2.0.51): Extracting archive
+  - Installing bower-asset/bootstrap (v5.3.3): Extracting archive
+  - Installing yiisoft/yii2-bootstrap5 (2.0.4): Extracting archive
+  - Installing yiisoft/yii2-debug (2.1.25): Extracting archive
+  - Installing fakerphp/faker (v1.24.1): Extracting archive
+  - Installing yiisoft/yii2-faker (2.0.5): Extracting archive
+  - Installing phpspec/php-diff (v1.1.3): Extracting archive
+  - Installing yiisoft/yii2-gii (2.2.6): Extracting archive
+  - Installing symfony/mailer (v6.4.13): Extracting archive
+  - Installing yiisoft/yii2-symfonymailer (2.0.4): Extracting archive
+14 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+54 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> yii\composer\Installer::postCreateProject
+chmod('runtime', 0777)...done.
+chmod('web/assets', 0777)...done.
+chmod('yii', 0755)...done.
+> yii\composer\Installer::postInstall
+
