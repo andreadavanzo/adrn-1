@@ -1,11 +1,8 @@
 <?php
 
-/* CESP, Copyright (c) Andrea Davanzo, License MPL v2.0 */
-
-function cesp_log(string $action = null): array
+function phptest_log(string $action = null): array
 {
   static $data = [
-    'version' => '2025.1',
     'memory_usage_start' => 0,
     'memory_usage_end' => 0,
     'memory_usage_delta' => 0,
@@ -66,8 +63,9 @@ function cesp_log(string $action = null): array
         $data['declared_traits'][] = $trait;
       }
     }
-    $data['defined_functions'] = get_defined_functions()['user'] ?? [];
-    $data['defined_constants'] = get_defined_constants(true)['user'] ?? [];
+    $data['defined_functions'] = get_defined_functions()['user'];
+    $data['defined_constants'] = get_defined_constants(true)['user'];
+    $data['defined_constants'] = get_defined_constants(true)['user'];
 
     $data['num_included_files'] = count($data['included_files']);
     $data['num_declared_classes'] = count($data['declared_classes']);
@@ -76,7 +74,9 @@ function cesp_log(string $action = null): array
     $data['num_defined_functions'] = count($data['defined_functions']);
     $data['num_defined_constants'] = count($data['defined_constants']);
   } else if ($action === 'print') {
+    echo "<pre>\n";
     echo json_encode($data, JSON_PRETTY_PRINT);
+    echo "</pre>\n";
   }
   return [];
 }

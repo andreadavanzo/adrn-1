@@ -1,6 +1,14 @@
-<?php
+<?php //
 
 declare(strict_types=1);
+
+ini_set('display_errors', 'true');
+ini_set('track_errors', 'true');
+ini_set('display_startup_errors', 'true');
+error_reporting(E_ALL);
+
+//require '../../../cesp/cesp_log.php';
+//cesp_log('start');
 
 use Laminas\Mvc\Application;
 
@@ -35,3 +43,8 @@ $container = require __DIR__ . '/../config/container.php';
 /** @var Application $app */
 $app = $container->get('Application');
 $app->run();
+
+//cesp_log('end');
+//echo '<pre>';
+//cesp_log('print');
+//echo '</pre>';
