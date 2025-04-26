@@ -9,8 +9,11 @@ use Laminas\View\Model\ViewModel;
 
 class IndexController extends AbstractActionController
 {
-    public function indexAction()
-    {
-        return new ViewModel();
-    }
+
+  public function indexAction()
+  {
+    return new ViewModel([
+      'message' => 'Hello World', // Pass the message to the view
+    ]);
+  }
 }

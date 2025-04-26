@@ -5,7 +5,7 @@
 function cesp_log(string $action = null): array
 {
   static $data = [
-    'version' => '2025.1',
+    'version' => '2025.2',
     'memory_usage_start' => 0,
     'memory_usage_end' => 0,
     'memory_usage_delta' => 0,
@@ -36,11 +36,11 @@ function cesp_log(string $action = null): array
     return $data;
   }
   if ($action === 'start') {
+    $data['microtime_start'] = microtime(true);
     $data['memory_usage_start'] = memory_get_usage(false);
     $data['memory_allocated_start'] = memory_get_usage(true);
     $data['memory_peak_start'] = memory_get_peak_usage(false);
     $data['memory_real_peak_start'] = memory_get_peak_usage(true);
-    $data['microtime_start'] = microtime(true);
   } else if ($action === 'end') {
     $data['microtime_end'] = microtime(true);
     $data['memory_usage_end'] = memory_get_usage(false);
@@ -76,7 +76,7 @@ function cesp_log(string $action = null): array
     $data['num_defined_functions'] = count($data['defined_functions']);
     $data['num_defined_constants'] = count($data['defined_constants']);
   } else if ($action === 'print') {
-    echo json_encode($data, JSON_PRETTY_PRINT);
+    echo 'cesp_log--' . (json_encode($data, JSON_PRETTY_PRINT | JSON_PARTIAL_OUTPUT_ON_ERROR) ?: json_last_error_msg()) . '--cesp_log';
   }
   return [];
 }
