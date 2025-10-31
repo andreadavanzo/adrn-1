@@ -59,6 +59,7 @@ require $paths->systemDirectory . '/Boot.php';
 CodeIgniter\Boot::bootWeb($paths);
 
 cesp_log('end');
+echo "\n";
 echo '<pre>';
 cesp_log('print');
 echo '</pre>';

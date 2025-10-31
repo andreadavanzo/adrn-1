@@ -39,6 +39,6 @@
             "install-path": "../bcosca/fatfree-core"
         }
     ],
-    "dev": true,
+    "dev": false,
     "dev-package-names": []
 }

@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '3.9.0',
-        'version' => '3.9.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '24a1496b6b0005e8f9c4687ed184db2fa1ce9c01',
         'name' => 'bcosca/fatfree',
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'bcosca/fatfree' => array(
-            'pretty_version' => '3.9.0',
-            'version' => '3.9.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '24a1496b6b0005e8f9c4687ed184db2fa1ce9c01',
             'dev_requirement' => false,
         ),
         'bcosca/fatfree-core' => array(

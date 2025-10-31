@@ -23,13 +23,8 @@ $runtime = new $runtime(($_SERVER['APP_RUNTIME_OPTIONS'] ?? $_ENV['APP_RUNTIME_O
 
 $app = $app(...$args);
 
-//exit(
+exit(
     $runtime
         ->getRunner($app)
-        ->run();
-//);
-
-cesp_log('end');
-echo '<pre>';
-cesp_log('print');
-echo '</pre>';
+        ->run()
+);

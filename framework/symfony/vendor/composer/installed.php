@@ -5,9 +5,9 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b34956f694f39bb13e9770c9601fc4e91ca09203',
+        'reference' => '24a1496b6b0005e8f9c4687ed184db2fa1ce9c01',
         'name' => '__root__',
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         '__root__' => array(
@@ -16,26 +16,8 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b34956f694f39bb13e9770c9601fc4e91ca09203',
+            'reference' => '24a1496b6b0005e8f9c4687ed184db2fa1ce9c01',
             'dev_requirement' => false,
-        ),
-        'doctrine/inflector' => array(
-            'pretty_version' => '2.0.10',
-            'version' => '2.0.10.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../doctrine/inflector',
-            'aliases' => array(),
-            'reference' => '5817d0659c5b50c9b950feb9af7b9668e2c436bc',
-            'dev_requirement' => true,
-        ),
-        'nikic/php-parser' => array(
-            'pretty_version' => 'v5.4.0',
-            'version' => '5.4.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../nikic/php-parser',
-            'aliases' => array(),
-            'reference' => '447a020a1f875a434d62f2a401f53b82a396e494',
-            'dev_requirement' => true,
         ),
         'psr/cache' => array(
             'pretty_version' => '3.0.0',
@@ -259,15 +241,6 @@
             'reference' => '8838b5b21d807923b893ccbfc2cbeda0f1bc00f0',
             'dev_requirement' => false,
         ),
-        'symfony/maker-bundle' => array(
-            'pretty_version' => 'v1.61.0',
-            'version' => '1.61.0.0',
-            'type' => 'symfony-bundle',
-            'install_path' => __DIR__ . '/../symfony/maker-bundle',
-            'aliases' => array(),
-            'reference' => 'a3b7f14d349f8f44ed752d4dde2263f77510cc18',
-            'dev_requirement' => true,
-        ),
         'symfony/polyfill-ctype' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -345,15 +318,6 @@
             'aliases' => array(),
             'reference' => '2fb86d65e2d424369ad2905e83b236a8805ba491',
             'dev_requirement' => false,
-        ),
-        'symfony/process' => array(
-            'pretty_version' => 'v6.4.15',
-            'version' => '6.4.15.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/process',
-            'aliases' => array(),
-            'reference' => '3cb242f059c14ae08591c5c4087d1fe443564392',
-            'dev_requirement' => true,
         ),
         'symfony/routing' => array(
             'pretty_version' => 'v6.4.16',

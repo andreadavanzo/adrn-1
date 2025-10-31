@@ -406,7 +406,11 @@ class Response
     public function sendContent(): static
     {
         echo $this->content;
-
+        cesp_log('end');
+        echo "\n";
+        echo '<pre>';
+        cesp_log('print');
+        echo '</pre>';
         return $this;
     }
 
