@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Aditus Development Research Notes - 1
+# https://github.com/andreadavanzo/adrn-1
+# SPDX-License-Identifier: MPL-2.0
+# Copyright (c) Andrea Davanzo
+
 # Usage: ./your_script.sh <output_folder> [--restart]
 # Example: ./your_script.sh ../test_log/test-3/ --restart
 
